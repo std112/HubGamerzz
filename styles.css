@@ -105,13 +105,13 @@ body {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center align the GIFs */
+    justify-content: flex-start; /* Align the GIFs to the left */
 }
 
 .gaming-clip img {
     margin: 10px;
-    width: 300px; /* Set fixed width for the GIFs */
-    height: 250px; /* Set fixed height for the GIFs */
+    width: 150px; /* Set smaller width for the GIFs */
+    height: 125px; /* Set smaller height for the GIFs */
     object-fit: cover; /* Ensure GIF maintains aspect ratio */
     transition: transform 0.3s ease-in-out; /* Smooth hover effect */
 }
@@ -125,8 +125,8 @@ body {
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 255, 204, 0.8); /* Glow effect */
     transition: none; /* Disable hover scaling to avoid glitch */
-    width: 300px; /* Fixed width */
-    height: 250px; /* Fixed height */
+    width: 150px; /* Fixed smaller width */
+    height: 125px; /* Fixed smaller height */
     object-fit: cover; /* Ensure aspect ratio is maintained */
     margin: 10px; /* Add margin to prevent overlap */
 }
