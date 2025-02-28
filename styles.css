@@ -137,34 +137,34 @@ body {
 
 .anti-scam-message {
     position: fixed;
-    bottom: 200px;
-    right: 20%;
-    transform: translateX(20%);
-    background: linear-gradient(135deg, rgba(0, 255, 204, 0.8), rgba(255, 0, 0, 0.8)); /* Gradient background */
-    padding: 40px;
-    border-radius: 15px; /* More rounded corners */
-    box-shadow: 0 0 30px rgba(0, 255, 204, 0.7), 0 0 30px rgba(255, 0, 0, 0.7); /* Glow and shadow effect */
+    bottom: 150px; /* Move the section a little higher */
+    right: 10%; /* Move it slightly to the right */
+    transform: translateX(10%);
+    background: linear-gradient(135deg, rgba(0, 255, 204, 0.9), rgba(255, 0, 0, 0.9)); /* Bright gradient background */
+    padding: 60px; /* Increased padding for a larger section */
+    border-radius: 25px; /* Larger rounded corners */
+    box-shadow: 0 0 50px rgba(0, 255, 204, 0.9), 0 0 50px rgba(255, 0, 0, 0.9); /* Larger glow and shadow effect */
     color: white;
-    font-size: 1.8rem;
-    max-width: 750px;
+    font-size: 2.2rem; /* Increased font size */
+    max-width: 900px; /* Increased max-width */
     text-align: center;
     animation: fadeIn 2s ease-in-out, pulse 2s infinite alternate;
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px; /* Adds spacing between letters */
+    letter-spacing: 1.5px; /* Adds spacing between letters */
 }
 
 .anti-scam-message strong {
-    font-size: 2.2rem; /* Increase size of the strong text */
-    text-shadow: 2px 2px 5px rgba(0, 255, 204, 0.8), 2px 2px 5px rgba(255, 0, 0, 0.8); /* Shadow effect on strong text */
+    font-size: 2.8rem; /* Increase size of the strong text */
+    text-shadow: 3px 3px 8px rgba(0, 255, 204, 0.8), 3px 3px 8px rgba(255, 0, 0, 0.8); /* Stronger text shadow */
     color: #00ffcc;
 }
 
 .anti-scam-message p {
-    margin-top: 15px;
-    font-size: 1.2rem; /* Adjust font size for the description */
-    color: #f7f7f7; /* Light color for the paragraph */
-    line-height: 1.5; /* Increased line height for readability */
+    margin-top: 25px;
+    font-size: 1.4rem; /* Larger description text */
+    color: #f7f7f7;
+    line-height: 1.6; /* Increased line height for readability */
 }
 
 .affiliated {
@@ -202,6 +202,6 @@ body {
         transform: scale(1);
     }
     to {
-        transform: scale(1.05);
+        transform: scale(1.1); /* Slightly larger pulse effect */
     }
 }
