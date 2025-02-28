@@ -110,8 +110,8 @@ body {
 
 .gaming-clip img {
     margin: 10px;
-    width: 150px; /* Set smaller width for the GIFs */
-    height: 125px; /* Set smaller height for the GIFs */
+    width: 250px; /* Set updated width for the GIFs */
+    height: 200px; /* Set updated height for the GIFs */
     object-fit: cover; /* Ensure GIF maintains aspect ratio */
     transition: transform 0.3s ease-in-out; /* Smooth hover effect */
 }
@@ -125,8 +125,8 @@ body {
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 255, 204, 0.8); /* Glow effect */
     transition: none; /* Disable hover scaling to avoid glitch */
-    width: 150px; /* Fixed smaller width */
-    height: 125px; /* Fixed smaller height */
+    width: 250px; /* Fixed updated width */
+    height: 200px; /* Fixed updated height */
     object-fit: cover; /* Ensure aspect ratio is maintained */
     margin: 10px; /* Add margin to prevent overlap */
 }
